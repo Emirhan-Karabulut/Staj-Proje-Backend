@@ -93,7 +93,8 @@ public class SecurityConfig {
             CorsConfiguration configuration = new CorsConfiguration();
             configuration.setAllowedOrigins(List.of(
                     "http://localhost:4200",
-                    "https://staj-proje-frontend.up.railway.app"
+                    "https://staj-proje-frontend.up.railway.app",
+                    "https://emirhan-karabulut.github.io"
             ));
             configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
             configuration.setAllowedHeaders(List.of("*"));

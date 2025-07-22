@@ -20,12 +20,9 @@
         </encoder>
     </appender>
 
-    <!-- Kendi paketine özel log seviyesi (DEBUG) -->
     <logger name="com.example.backend" level="DEBUG"/>
-    <!-- Security için yalnızca önemli olaylar (INFO/DEBUG) -->
     <logger name="org.springframework.security" level="INFO"/>
     <logger name="org.springframework.security.web.FilterChainProxy" level="DEBUG"/>
-    <!-- Geri kalan Spring veya framework logları minumumda -->
     <logger name="org.springframework.web" level="INFO"/>
     <logger name="org.springframework" level="INFO"/>
     <logger name="org.springframework.boot" level="INFO"/>
